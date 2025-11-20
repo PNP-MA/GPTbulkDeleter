@@ -9,8 +9,7 @@ This script adds bulk delete functionality to ChatGPT's conversation history. It
 ## Features
 
 - **Backend API deletion**: Uses ChatGPT's backend API for reliable, fast deletion (no UI clicking required)
-- **Ctrl-click multi-select**: Hold Ctrl (or ⌘ on Mac) and click conversations to toggle checkboxes without navigating
-- **Checkbox selection**: Traditional checkbox selection also available
+- **Checkbox selection**: Click checkboxes to select conversations for deletion
 - **Bulk delete**: Delete multiple conversations with a single click
 - **Visual feedback**: Real-time progress indicators and error highlighting
 - **Notifications**: Desktop notifications for deletion status
@@ -29,9 +28,7 @@ This script adds bulk delete functionality to ChatGPT's conversation history. It
 1. Navigate to [ChatGPT](https://chatgpt.com/) and ensure you're logged in
 2. Open your conversation history sidebar
 3. Checkboxes will appear next to each conversation
-4. Select conversations using one of these methods:
-   - **Ctrl-click (or ⌘ on Mac)**: Hold Ctrl/⌘ and click a conversation to toggle its checkbox
-   - **Checkbox click**: Click the checkbox directly
+4. Click the checkboxes next to the conversations you want to delete
 5. Click the "Bulk Delete Selected" button at the top
 6. Confirm the deletion
 7. Watch the progress as conversations are deleted via the backend API
@@ -41,7 +38,6 @@ This script adds bulk delete functionality to ChatGPT's conversation history. It
 
 **5.0.0** - Major update:
 - Uses backend API for deletion (more reliable and faster)
-- Added Ctrl-click (⌘ on Mac) multi-select functionality
 - Improved error handling and notifications
 - Better UI feedback during deletion process
 
