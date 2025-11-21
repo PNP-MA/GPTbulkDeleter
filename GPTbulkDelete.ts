@@ -111,7 +111,7 @@
         btn.addEventListener('click', bulkDelete);
 
         const help = document.createElement('div');
-        help.textContent = 'Hold Ctrl (or ⌘ on Mac) and click a chat to toggle its checkbox.';
+        // help.textContent = '';
         help.style.cssText = 'font-size: 11px; color: #aaa; margin-top: 4px;';
 
         panel.append(btn, help);
