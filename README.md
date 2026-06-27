@@ -18,7 +18,7 @@ Adds checkboxes to your ChatGPT history sidebar. Pick conversations, hit delete.
 
 1. Install [Tampermonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
 2. Open the dashboard, create a new script
-3. Paste the contents of `GPTbulkDelete.ts`
+3. Paste the contents of `GPTbulkDeleter.ts`
 4. Save
 
 ## Usage
