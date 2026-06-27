@@ -8,6 +8,7 @@
 // @connect      chatgpt.com
 // @grant        GM_xmlhttpRequest
 // @grant        GM_notification
+// @license      MIT
 // ==/UserScript==
 
 (function () {
